@@ -1,0 +1,84 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav{
+    background-color:rgb(51, 236, 175);
+    height: 70px;
+    padding: 15px;
+}
+.nav .navbar-brand a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    border:none;
+
+}
+.nav a{
+    font-size: 18px;
+    font-weight: 600;
+    color:black; 
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    margin-left: 10px;
+    transition: transform 2s;
+}
+.nav a:hover{
+    transform: rotate(45deg);
+    background-color:rgb(35, 180, 120);
+    color:white;
+}
+#home{
+    font-size: 18px;
+    font-weight: 600;
+    color:black; 
+    background-color:palegreen;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.card{
+    margin-top: 100px;
+}
+.card i{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+.submitbtm{
+    background: rgb(0, 0, 0);
+    margin-bottom: 50px;
+    color: white;
+    animation: 2s;
+    padding: 5px;
+    border: none;
+    
+}
+.submitbtm:hover{
+    background: rgb(56, 255, 132);
+    color: rgb(255, 255, 255);
+    
+}
+
+thead{
+    border: solid 1px;
+}
+th{
+    color: rgb(156, 0, 0);
+}
+tr{
+    color: coral;
+    border: solid;
+    background-color: cornsilk;
+}
+tbody{
+    border-radius: 10px;
+    border: solid 2px;
+    color: rgb(0, 0, 0);
+}
+.travelchar{
+    color: rgb(13, 102, 20);
+   text-align: center;
+    margin-top: 10px;
+    font-size: 600;
+    font-family:bold 2px;
+}

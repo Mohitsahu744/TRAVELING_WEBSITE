@@ -1,0 +1,24 @@
+.Login_form {
+    background-color:rgba(15, 235, 125, 0.767);
+    padding: 30px;
+    border-radius: 10px;
+
+}
+.Login_form h1 {
+    color: rgb(93, 103, 243);
+    font-weight: 600;
+    transition: transform 1s;
+}
+.Login_form h1:hover{
+    transform: scale(1.2);
+}
+.Login_form button {
+    color: rgb(0, 0, 0);
+    transition: transform 1s;
+}
+.Login_form button:hover {
+    transform: rotate(360deg);
+   
+    background-color: darkblue;
+    color: white;
+}
